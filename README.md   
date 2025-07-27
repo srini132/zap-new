@@ -1,0 +1,15 @@
+# 🔐 Secure Vulnerability Scanner
+
+A lightweight penetration testing tool inspired by OWASP ZAP. Scans a given URL for missing security headers, vulnerable forms, and common misconfigurations.
+
+## 🔧 Features
+- Checks HTTP response code
+- Validates key security headers
+- Detects common vulnerability patterns
+- Extracts HTML forms
+- Performs basic port scan on server
+
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+python scanner.py
